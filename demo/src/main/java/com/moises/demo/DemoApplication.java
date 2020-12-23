@@ -26,7 +26,7 @@ public class DemoApplication {
 	}
 
 
-    @Bean
+    /*@Bean
     CommandLineRunner init(ContactRepository repository) {
         return args -> {
             repository.deleteAll();
@@ -41,5 +41,5 @@ public class DemoApplication {
                     .map(v -> repository.save(v))
                     .forEach(System.out::println);
         };
-    }
+    }*/
 }

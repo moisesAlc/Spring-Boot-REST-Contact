@@ -19,6 +19,7 @@ public class ContactController {
 	   }
 	   // métodos do CRUD aqui
 	   
+	   @CrossOrigin(origins = "http://localhost:4200")
 	   @GetMapping
 	   public List findAll(){
 	      return repository.findAll();
